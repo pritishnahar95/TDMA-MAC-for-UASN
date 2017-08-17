@@ -47,9 +47,9 @@ Simulation time:        ${time} s"""
 
 channel.model 		     = BasicAcousticChannel
 
-channel.carrierFrequency = 25.kHz       		// f
+channel.carrierFrequency = 25.kHz       	// f
 channel.bandwidth        = 4096.Hz              // B
-channel.spreading 		 = 2                    // α
+channel.spreading        = 2                    // α
 channel.temperature      = 25.C              	// T
 channel.salinity         = 35.ppt               // S
 channel.noiseLevel       = 60.dB              	// N0
